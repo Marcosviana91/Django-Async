@@ -20,4 +20,7 @@ from .views import api, async_view, sync_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', api),
+    path('async-api/', async_view),
+    path('sync-api/', sync_view),
 ]
